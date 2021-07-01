@@ -37,8 +37,8 @@ const game = () => {
           setTimeout(() => {
             //Here is where we call compare hands
             //Update Images
-            playerHand.src = `/resources/${this.textContent}.png`;
-            computerHand.src = `/resources/${computerChoice}.png`;
+            playerHand.src = `./resources/${this.textContent}.png`;
+            computerHand.src = `./resources/${computerChoice}.png`;
           }, 2000);
           //Animation
           playerHand.style.animation = "shakePlayer 2s ease";
